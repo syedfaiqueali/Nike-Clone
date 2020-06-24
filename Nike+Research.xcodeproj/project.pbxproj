@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2D4EB74D24A3AB2F000036A7 /* ShoeImagesPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4EB74C24A3AB2F000036A7 /* ShoeImagesPageViewController.swift */; };
+		2D4EB74F24A3B6EC000036A7 /* ShoeImagesHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4EB74E24A3B6EC000036A7 /* ShoeImagesHeaderView.swift */; };
 		52E3D2121E7F0D990064B02E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E3D2111E7F0D990064B02E /* AppDelegate.swift */; };
 		52E3D2141E7F0D990064B02E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E3D2131E7F0D990064B02E /* ViewController.swift */; };
 		52E3D2171E7F0D990064B02E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52E3D2151E7F0D990064B02E /* Main.storyboard */; };
@@ -27,6 +28,7 @@
 
 /* Begin PBXFileReference section */
 		2D4EB74C24A3AB2F000036A7 /* ShoeImagesPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoeImagesPageViewController.swift; sourceTree = "<group>"; };
+		2D4EB74E24A3B6EC000036A7 /* ShoeImagesHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoeImagesHeaderView.swift; sourceTree = "<group>"; };
 		52E3D20E1E7F0D990064B02E /* Nike+Research.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nike+Research.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		52E3D2111E7F0D990064B02E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52E3D2131E7F0D990064B02E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -130,6 +132,7 @@
 		52FDBCE11E8759FC00A59876 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				2D4EB74E24A3B6EC000036A7 /* ShoeImagesHeaderView.swift */,
 				52E3D2341E7F442B0064B02E /* ShoeDetailCell.swift */,
 				52E3D2361E7F53910064B02E /* SuggestionCollectionViewCell.swift */,
 				52E3D2381E7F53EB0064B02E /* SuggestionTableViewCell.swift */,
@@ -221,6 +224,7 @@
 				52E3D2121E7F0D990064B02E /* AppDelegate.swift in Sources */,
 				52E3D2281E7F14320064B02E /* FeedShoeTableViewCell.swift in Sources */,
 				52E3D2261E7F136C0064B02E /* FeedTableViewController.swift in Sources */,
+				2D4EB74F24A3B6EC000036A7 /* ShoeImagesHeaderView.swift in Sources */,
 				52E3D22E1E7F32FD0064B02E /* ShoeDetailTableViewController.swift in Sources */,
 				52E3D2391E7F53EB0064B02E /* SuggestionTableViewCell.swift in Sources */,
 				52F7B6161E7F9F7E00735A46 /* CheckoutTableViewController.swift in Sources */,

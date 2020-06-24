@@ -4,6 +4,8 @@ class ShoeDetailTableViewController : UITableViewController
 {
     var shoe: Shoe!
     
+    @IBOutlet weak var shoeImagesHeaderView: ShoeImagesHeaderView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -74,6 +76,16 @@ extension ShoeDetailTableViewController
             return self.tableView.bounds.width + 68
         } else {
             return UITableViewAutomaticDimension
+        }
+    }
+    
+    //MARK:- Navigation
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == Storyboard.showImagesPageVC {
+            if let imagesPageVC = segue.destination as? ShoeImagesPageViewController {
+                imagesPageVC.images = shoe.images
+                //imagesPageVC.pageViewControllerDelegate = shoeImagesHeaderView
+            }
         }
     }
 }
