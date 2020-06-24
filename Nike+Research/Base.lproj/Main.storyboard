@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="WtA-1K-gAP">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="1Gi-cr-oQY">
     <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
@@ -279,10 +279,10 @@
             </objects>
             <point key="canvasLocation" x="2042" y="-670"/>
         </scene>
-        <!--Page View Controller-->
+        <!--Shoe Images Page View Controller-->
         <scene sceneID="Qmp-Zr-keZ">
             <objects>
-                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="pageCurl" navigationOrientation="horizontal" spineLocation="min" id="1Gi-cr-oQY" sceneMemberID="viewController"/>
+                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="1Gi-cr-oQY" customClass="ShoeImagesPageViewController" customModule="Nike_Research" customModuleProvider="target" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OYM-T1-6jB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2870" y="-1063"/>
@@ -290,7 +290,7 @@
         <!--Shoe Image View Controller-->
         <scene sceneID="sWB-bd-d2Z">
             <objects>
-                <viewController id="zVx-PS-jmg" customClass="ShoeImageViewController" customModule="Nike_Research" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ShoeImageViewController" id="zVx-PS-jmg" customClass="ShoeImageViewController" customModule="Nike_Research" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ovd-k8-9j0"/>
                         <viewControllerLayoutGuide type="bottom" id="HEn-Ow-X00"/>
