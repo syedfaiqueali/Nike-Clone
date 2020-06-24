@@ -84,7 +84,7 @@ extension ShoeDetailTableViewController
         if segue.identifier == Storyboard.showImagesPageVC {
             if let imagesPageVC = segue.destination as? ShoeImagesPageViewController {
                 imagesPageVC.images = shoe.images
-                //imagesPageVC.pageViewControllerDelegate = shoeImagesHeaderView
+                imagesPageVC.pageViewControllerDelegate = shoeImagesHeaderView
             }
         }
     }

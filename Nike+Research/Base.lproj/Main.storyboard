@@ -100,14 +100,24 @@
                                         <segue destination="1Gi-cr-oQY" kind="embed" identifier="ShowImagesPageViewController" id="SUK-yo-BiB"/>
                                     </connections>
                                 </containerView>
+                                <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="y3m-Ua-mcb">
+                                    <rect key="frame" x="168" y="338" width="39" height="37"/>
+                                    <color key="pageIndicatorTintColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="currentPageIndicatorTintColor" red="0.26051741839999998" green="0.2605243921" blue="0.260520637" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </pageControl>
                             </subviews>
                             <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                             <constraints>
                                 <constraint firstItem="BDr-yj-rDI" firstAttribute="top" secondItem="kfl-My-ec9" secondAttribute="top" id="0uN-GL-zG5"/>
                                 <constraint firstAttribute="trailing" secondItem="BDr-yj-rDI" secondAttribute="trailing" id="24Y-24-piZ"/>
+                                <constraint firstItem="y3m-Ua-mcb" firstAttribute="centerX" secondItem="kfl-My-ec9" secondAttribute="centerX" id="CaR-rM-gJL"/>
                                 <constraint firstItem="BDr-yj-rDI" firstAttribute="leading" secondItem="kfl-My-ec9" secondAttribute="leading" id="E0Y-rZ-z3S"/>
+                                <constraint firstAttribute="bottom" secondItem="y3m-Ua-mcb" secondAttribute="bottom" id="HNJ-mS-QV1"/>
                                 <constraint firstAttribute="bottom" secondItem="BDr-yj-rDI" secondAttribute="bottom" id="TYO-ha-5xn"/>
                             </constraints>
+                            <connections>
+                                <outlet property="pageControl" destination="y3m-Ua-mcb" id="FNL-nx-qri"/>
+                            </connections>
                         </view>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ShoeDetailCell" rowHeight="173" id="VBE-PV-Wh9" customClass="ShoeDetailCell" customModule="Nike_Research" customModuleProvider="target">
