@@ -287,10 +287,10 @@
             </objects>
             <point key="canvasLocation" x="2870" y="-1063"/>
         </scene>
-        <!--View Controller-->
+        <!--Shoe Image View Controller-->
         <scene sceneID="sWB-bd-d2Z">
             <objects>
-                <viewController id="zVx-PS-jmg" sceneMemberID="viewController">
+                <viewController id="zVx-PS-jmg" customClass="ShoeImageViewController" customModule="Nike_Research" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ovd-k8-9j0"/>
                         <viewControllerLayoutGuide type="bottom" id="HEn-Ow-X00"/>
@@ -311,6 +311,9 @@
                             <constraint firstItem="YOJ-w3-A6a" firstAttribute="top" secondItem="ovd-k8-9j0" secondAttribute="bottom" id="vBD-am-e9R"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="imageView" destination="YOJ-w3-A6a" id="QMT-vW-JaA"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HG2-n2-C3C" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
